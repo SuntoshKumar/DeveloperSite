@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ဓမ္မ အရသာ (Dhamma A Yatha) - A meditation and Buddhist Dhamma learning app for Android by Sam Krish." />
+  <title>ဓမ္မ အရသာ (Dhamma A Yatha) | Developer Site</title>
+  <style>
+    :root {
+      --bg: #f6fbf9;
+      --surface: #ffffff;
+      --primary: #2f6f5f;
+      --secondary: #4f8a7b;
+      --accent: #e6f3ef;
+      --text: #1f2a2a;
+      --muted: #5a6a69;
+      --border: #d7e6e1;
+      --shadow: 0 10px 30px rgba(24, 58, 51, 0.08);
+      --radius: 14px;
+      --container: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", "Noto Sans Myanmar", "Noto Sans", Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 15% 10%, #e9f7f2 0%, transparent 38%),
+        radial-gradient(circle at 85% 0%, #eaf4ff 0%, transparent 35%),
+        var(--bg);
+      line-height: 1.65;
+    }
+
+    .container {
+      width: min(92%, var(--container));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 5.5rem 0 4rem;
+      text-align: center;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--secondary);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      letter-spacing: 0.02em;
+      margin-bottom: 1.2rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.3rem);
+      line-height: 1.2;
+      color: var(--primary);
+      margin-bottom: 0.9rem;
+    }
+
+    .subtitle {
+      max-width: 740px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.2vw, 1.2rem);
+    }
+
+    main {
+      padding-bottom: 3rem;
+    }
+
+    section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 0.7rem;
+      font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+    }
+
+    p {
+      color: #334140;
+    }
+
+    .features ul {
+      margin-top: 0.45rem;
+      padding-left: 1.2rem;
+    }
+
+    .features li {
+      margin: 0.45rem 0;
+      color: #2e3a39;
+    }
+
+    .contact a {
+      color: var(--secondary);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .contact a:hover {
+      border-bottom-color: var(--secondary);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+      padding: 1.5rem 0 2.2rem;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding-top: 4rem;
+      }
+
+      section {
+        padding: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="tag">Android App • Google Play Store</span>
+      <h1>ဓမ္မ အရသာ (Dhamma A Yatha)</h1>
+      <p class="subtitle">A calm and practical meditation companion for learning Buddhist Dhamma with mindfulness in daily life.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section aria-labelledby="about-heading">
+      <h2 id="about-heading">About the App</h2>
+      <p>
+        ဓမ္မ အရသာ (Dhamma A Yatha) is designed to support meditation practice and Buddhist Dhamma learning for everyday users.
+        The app focuses on mindful living, inner calm, and accessible guidance that helps practitioners stay grounded and consistent.
+      </p>
+    </section>
+
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Features</h2>
+      <ul>
+        <li>Simple and focused meditation learning experience</li>
+        <li>Buddhist Dhamma content for mindfulness and reflection</li>
+        <li>Lightweight Android-first design for daily use</li>
+        <li>Clean interface built for clarity and calm</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">Privacy Policy</h2>
+      <p>
+        This app may use third-party services such as Google AdMob to display ads. These providers may collect device and usage data
+        in accordance with their own privacy policies. The app does not sell personal data and is developed with user trust in mind.
+      </p>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>
+        For support or questions, contact: <a href="mailto:your-email@example.com">your-email@example.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Sam Krish. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
